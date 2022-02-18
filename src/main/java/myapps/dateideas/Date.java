@@ -1,21 +1,21 @@
 package myapps.dateideas;
 
 public class Date {
-	
+
 	private String name;
-	
+
 	private String description;
-	
+
 	private double price;
-	
+
 	private double duration;
-	
+
 	private boolean stayInside;
-	
+
 	private boolean isOutdoors;
-	
+
 	private boolean hasFood;
-	
+
 	private boolean isFormal;
 
 	public Date(String name, String description, double price, double duration, boolean stayInside, boolean isOutdoors,
@@ -102,9 +102,4 @@ public class Date {
 				+ isFormal + "]";
 	}
 
-	
-	
-	
-
 }
-

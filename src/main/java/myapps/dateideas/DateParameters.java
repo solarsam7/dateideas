@@ -1,21 +1,21 @@
 package myapps.dateideas;
 
 public class DateParameters {
-	
-    private double priceLimit;
-	
+
+	private double priceLimit;
+
 	private double duration;
-	
+
 	private boolean stayInside;
-	
+
 	private boolean isOutdoors;
-	
+
 	private boolean needFood;
-	
+
 	private boolean isFormal;
 
-	public DateParameters(double priceLimit, double duration, boolean stayInside, boolean isOutdoors,
-			boolean needFood, boolean isFormal) {
+	public DateParameters(double priceLimit, double duration, boolean stayInside, boolean isOutdoors, boolean needFood,
+			boolean isFormal) {
 		super();
 		this.priceLimit = priceLimit;
 		this.duration = duration;
@@ -78,13 +78,5 @@ public class DateParameters {
 		return "DateParameters [priceLimit=" + priceLimit + ", duration=" + duration + ", stayInside=" + stayInside
 				+ ", isOutdoors=" + isOutdoors + ", needFood=" + needFood + ", isFormal=" + isFormal + "]";
 	}
-
-	
-	
-	
-
-	
-	
-	
 
 }
